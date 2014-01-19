@@ -28,5 +28,20 @@
         "repository": "CyanogenMod/android_device_samsung_smdk4412-qcom-common",
         "target_path": "device/samsung/smdk4412-qcom-common",
         "revision": "cm-11.0"
-    }
+    },
+    [
+ {
+      "remote": "gh",
+      "repository": "CyanogenMod/android_kernel_samsung_manta",
+      "target_path": "kernel/samsung/manta",
+      "revision": "cm-11.0"
+ },
+ {
+    "remote": "gh",
+    "repository": "TheMuppets/proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision": "cm-11.0"
+ }
+]
+
 ]
