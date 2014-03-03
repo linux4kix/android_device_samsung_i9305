@@ -79,8 +79,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
+    
+# OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidi9305
 
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
